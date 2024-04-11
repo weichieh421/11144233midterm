@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7EBDA;
+    margin: 0px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    background-color: #F0DDC5;
+    border-radius: 15px;
+    border: 5px;
+    color: #82725D;
+    font-family: 'Times New Roman' ;
+    font-size: large;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin: 20px 30px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #D1BB9E;
+    color: #82725D;
+}
+html {
+    scroll-behavior: smooth;
+  }
+footer {
+    background-color: #D1BB9E;
+    color: #82725D;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    width: 900px;
+    height: 450px;
+    background-color: #FFF7ED;
+    border-radius: 20px;
+    border: 5px;
+    padding: 50px 50px;
+    margin: 20px auto;
+}
+.my_photo{
+    float: left;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color: #82725D;
+    padding: 30px 30px;
+}
+.my_profile{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    color: #82725D;
+    padding: 30px auto;
+}
+.python {
+    --w:150px;
+    
+    width: var(--w);
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    place-content: center;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .python:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
