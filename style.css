@@ -71,7 +71,21 @@ section{
       --percentage: 0;
     }
 }
-  
+.all_skills_display{
+    display: inline-flex;
+    justify-content: space-around;
+}
+.txt{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #82725D;
+    padding: auto;
+}
+.pie_display{
+    display: wrap;
+}
 .pie {
     width: 150px; /*圓餅圖大小*/
     aspect-ratio: 1; /*圓餅圖圓不圓就靠它*/
@@ -99,11 +113,27 @@ section{
     animation-duration: 4s;
     animation-fill-mode: both;
 }
-hr{
-    display: inline-grid;
-    height:100%;
-    width:5px;
-    border-width:0;
+.v_line{
+    border-left: thick solid #D1BB9E;
+    height:60%;
+    left: 50%;
+    position: absolute;
+}
+.progress_display{
+    align-content: space-around;
+}
+.progress{
+    width: 350px;
+    height: 30px;
+    border: #F0DDC5;
+    background-color:#F0DDC5;
+    border-radius: 15px;
+
+}
+.progress_bar{
+    width: 50%;
+    height: 30px;
+    border: #D1BB9E;
     background-color:#D1BB9E;
-    position: relative;
+    border-radius: 15px;
 }
